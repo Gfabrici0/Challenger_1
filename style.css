@@ -173,6 +173,7 @@ footer{
     .main_section_work{
         display: flex;
         text-align: center;
+        padding: 0;
     }
 
     .ajuste{
