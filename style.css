@@ -158,13 +158,13 @@ footer{
         margin-top: 50px;
     }
     
-    .article_div h3{
+    .main_section_work h3{
         text-align: left;
         margin: 0;
         padding: 0 0 0 20px;
     }
     
-    .article_div p{
+    .main_section_work p{
         text-align: left;
         margin: 0;
         padding: 20px;
@@ -173,10 +173,6 @@ footer{
     .main_section_work{
         display: flex;
         text-align: center;
-    }
-
-    .main_section_work p{
-        padding: 0;
     }
 
     .ajuste{
