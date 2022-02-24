@@ -144,7 +144,7 @@ footer{
 
 @media screen and (min-width: 700px){
     .main_section p{
-    padding-top: 10vw;
+    padding-top: none;
     }
     
     .button_link{
