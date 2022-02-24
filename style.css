@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #565F66;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 0;
+}
+
+li{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+p{
+    color: #4c545d;
+}
+
+.main_header{
+    background: linear-gradient( 180deg, transparent , #FFFFFF 70%) 
+                ,url(/Challenger_1/images/bg-header-mobile.png);
+    background-size: cover;
+    background-position: top right;
+    padding: 8em 1em 0;
+    text-align: center;
+}
+
+.header_div_button, .main_div_buttom{
+    margin-top: 2.77em;
+}
+
+.button_link{
+    display: block;
+    padding: 15px 60px;
+    background: #26bba5;
+    color: #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none;    
+    margin: 15px 15px;
+    box-shadow: 0 3px 1px #1c8373;
+}
+
+.button_color{
+    background: #6174ff;
+    box-shadow: 0 3px 1px #3a469c;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.main_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_section p{
+    justify-content: center;
+    padding: 5vw;
+    margin-bottom: 50px;
+}
+
+.main_section h3{
+    justify-content: center;
+}
+
+.main_section_work{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_section_work p{
+    justify-content: center;
+    padding: 5vw;
+    margin-bottom: 50px;
+}
+
+.main_section_work h3{
+    justify-content: center;
+}
+
+.main_article{
+    margin-bottom: 3em;
+    align-items: center;
+}
+
+.main_img{
+    width: 70vw;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.main_logo{
+    display: block;
+    margin: 0 auto 70px;
+}
+
+footer{
+    background: #F5F6F8;
+    text-align: center;
+}
+
+.footer_logo{
+    margin-top: 4em;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.footer_ul_mod_2 li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.attribution{
+    padding: 0 0 20px;
+}
+
+.footer_link{
+    display: inline-block;
+    text-decoration: none;
+    color: #26bba5;
+}
+
+@media screen and (min-width: 500px){
+    .button_link{
+        display: inline-block;
+        padding: 15px 90px;
+    }
+
+    main{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .button_link{
+        padding: 12px 60px;
+    }
+
+    .article_div{
+        height: 36.25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .flex{
+        margin-top: 5em;
+    }
+    
+    .article_div h3{
+        text-align: left;
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+    
+    .article_div p{
+        text-align: left;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .main_section_work{
+        display: flex;
+        text-align: center;
+    }
+
+    .main_section_work p{
+        padding: 0;
+    }
+
+    .ajuste{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ajuste .main_article{
+        width: 33%;
+        margin: 10px;
+    }
+
+    .main_section_logo{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .main_section_final{
+        margin-top: 100px;
+    }
+
+    .main_section_final .main_article p{
+        padding: 0;
+        margin: 10px 200px;
+    }
+
+    .main_footer{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_ul_mod{
+        display: inline-block;
+    }
+
+    .footer_ul_mod li{
+        display: inline-block;
+    }
+
+    .footer_ul_mod_2{
+        justify-content: end;
+    }
+
+    .attribution{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1000px){    
+    .float{
+        float: left;
+        transform: translate(-55px);
+    }
+
+    .flex{
+        margin-top: 7em;
+    }
+    .article_div{
+        height: 39em;
+    }
+
+    .ajuste .main_article{
+        width: 33%;
+        margin: 45px;
+    }
+  
+}
