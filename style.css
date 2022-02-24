@@ -217,6 +217,18 @@ footer{
         float: left;
         transform: translate(-55px);
     }
+    
+    .article_div h3{
+        text-align: left;
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+
+    .article_div p{
+        text-align: left;
+        margin: 0;
+        padding: 20px;
+    }
 
     .ajuste .main_article{
         width: 33%;
