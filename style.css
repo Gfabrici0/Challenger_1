@@ -148,14 +148,14 @@ footer{
     }
 
     .article_div{
-        height: 36.25em;
+        height: 33em;
         display: flex;
         flex-direction: column;
         justify-content: end;
     }
 
     .flex{
-        margin-top: 5em;
+        margin-top: 50px;
     }
     
     .article_div h3{
