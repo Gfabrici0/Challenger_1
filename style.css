@@ -232,10 +232,6 @@ footer{
         float: left;
         transform: translate(-55px);
     }
-
-    .flex{
-        margin-top: 7em;
-    }
     .article_div{
         height: 39em;
     }
