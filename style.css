@@ -232,9 +232,6 @@ footer{
         float: left;
         transform: translate(-55px);
     }
-    .article_div{
-        height: 39em;
-    }
 
     .ajuste .main_article{
         width: 33%;
