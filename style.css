@@ -167,6 +167,10 @@ footer{
         text-align: center;
         padding: 0;
     }
+    
+    .main_section_work p {    
+    padding: 0;
+    }
 
     .ajuste{
         display: flex;
