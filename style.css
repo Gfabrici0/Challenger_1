@@ -125,6 +125,11 @@ footer{
     padding: 0 0 20px;
 }
 
+.footer_link_ul{
+    text-decoration: none;
+    color: #4c545d; 
+}
+
 .footer_link{
     display: inline-block;
     text-decoration: none;
@@ -169,7 +174,7 @@ footer{
     }
     
     .main_section_work p {    
-    padding: 0;
+        padding: 0;
     }
 
     .ajuste{
@@ -190,33 +195,12 @@ footer{
     }
 
     .main_section_final{
-        margin-top: 100px;
+        margin: 100px 0;
     }
 
     .main_section_final .main_article p{
         padding: 0;
         margin: 10px 200px;
-    }
-
-    .main_footer{
-        display: flex;
-        align-items: center;
-    }
-
-    .footer_ul_mod{
-        display: inline-block;
-    }
-
-    .footer_ul_mod li{
-        display: inline-block;
-    }
-
-    .footer_ul_mod_2{
-        justify-content: end;
-    }
-
-    .attribution{
-        margin: 0;
     }
 }
 
@@ -240,7 +224,38 @@ footer{
 
     .ajuste .main_article{
         width: 33%;
-        margin: 45px;
+        margin: 45px;        
     }
-  
+
+    .main_footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 180px;
+    }
+
+    .footer_logo{
+        margin: 0 0 0 20px;
+    }
+
+    .footer_ul_mod{
+        display: flex;
+        flex-wrap: wrap;
+        align-self: stretch;
+        margin-bottom: 0;
+        width: 400px;
+    }    
+
+    .footer_ul_mod_2{       
+        order: 4;
+    }
+
+    .fotter_att{
+        margin: 40px 0 0 0;
+    }
+
+    .attribution{
+        margin: 0;
+        order: 3;
+    }
 }
